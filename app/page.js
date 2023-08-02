@@ -3,8 +3,10 @@ import Splash from './components/Splash';
 export default function Home() {
   return (
     <main className="">
-      <Splash />
-
+      <Splash
+        heading='Romy'
+        message='The new dog has arrived!'
+      />
     </main>
   );
 }
