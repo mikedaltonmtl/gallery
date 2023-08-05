@@ -10,3 +10,14 @@ html {
 .custom-img {
   background-image: url('https://images.unsplash.com/photo-1576375802250-371a6334a56c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
 }
+
+.slidebtn {
+  color: #ffffff;
+  border-color: #ffffff;
+  transition: 0.5s;
+}
+
+.slidebtn:hover { 
+  color: black;
+  box-shadow: inset 6.5em 0 0 0 #e1e1e1;
+}
