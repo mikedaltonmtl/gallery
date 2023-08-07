@@ -11,6 +11,7 @@ html {
   background-image: url('https://images.unsplash.com/photo-1576375802250-371a6334a56c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
 }
 
+/* animate view button on splash page */
 .slidebtn {
   color: #ffffff;
   border-color: #ffffff;
@@ -20,4 +21,55 @@ html {
 .slidebtn:hover { 
   color: black;
   box-shadow: inset 6.5em 0 0 0 #e1e1e1;
+}
+
+/* animate navbar links with underline */
+.navLink {
+  display: block;
+  text-decoration: none;
+}
+
+.navLink,
+.navLink:after,
+.navLink:before {
+  transition: all .5s;
+}
+
+.navLink:hover {
+  scale: 1.1;
+}
+
+.navLink:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: white;
+  height: 1px;
+}
+
+#navLink-white:after {
+  background: white;
+}
+
+#navLink-black:after {
+  background: black;
+}
+
+.navLink:hover:after {
+  width: 100%;
+}
+
+/* animate logo on hover */
+.logo,
+.logo:after {
+  transition: all .5s;
+}
+
+.logo:hover {
+  scale: 1.1;
 }
