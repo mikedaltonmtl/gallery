@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
-import ImagePicker from './ImagePicker';
 
 export default function Slider({ slides }) {
 
@@ -25,7 +24,26 @@ export default function Slider({ slides }) {
     <div className='w-[1240px] mx-auto relative'>
       <div id='gallery' className='absolute left-0 top-[-70px]' />
       <h1 className='text-4xl font-bold text-center p-4'>Gallery</h1>
-      <ImagePicker thumbnails={slides} />
+      {/* thumbnail gallery */}
+      <div className='flex justify-center align-middle'>
+        <ul id="scrollboxPending" className="flex flex-nowrap overflow-scroll scroll-smooth scrollbar-hide w-1/3">
+          {slides.map((thumb, index) => {
+            return (
+              <Image
+                key={`thumb-${index}`}
+                className="h-24 w-24"
+                src={thumb}
+                alt={index}
+                placeholder="blur"
+                draggable="false"
+                style={{ objectFit:'cover' }}
+              />
+            );
+          })}
+        </ul>
+      </div>
+
+      {/* full sized image */}
       <div id='gallery' className='relative flex justify-center p-8'>
         {slides.map((slide, index) => {
           return (
