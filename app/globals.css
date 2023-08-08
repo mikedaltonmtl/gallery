@@ -77,15 +77,41 @@ html {
 
 /* animate submit button */
 #submit-btn {
-  transition: all 1s ease;
+  color: rgba(0, 0, 0, 0.33);
+  transition: all 0.75s ease;
 }
 
 #submit-btn:hover {
-  color: #fff;
-  background-color: #bbb;
+  color: #000;
+  background-color: #e8f0fe;
   border: #fff;
   transform: scale(0.99);
   border-radius: 1%;
+}
+
+/* links on about me section */
+.about {
+  text-decoration: none;
+  color: #18272F;
+  font-weight: 700;
+  position: relative;
+}
+
+.about::before {
+  content: '';
+  /* background-color: hsla(196, 61%, 58%, .4); */
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 3px;
+  z-index: -1;
+  transition: all .3s ease-in-out;
+}
+
+.about:hover::before {
+  bottom: 0;
+  height: 100%;
 }
 
 /* hide the scrollbar for the thumbnail slider */
