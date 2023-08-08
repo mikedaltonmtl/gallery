@@ -73,3 +73,32 @@ html {
 .logo:hover {
   scale: 1.1;
 }
+
+/* animate submit button */
+#submit-btn {
+  transition: all 1s ease;
+}
+
+#submit-btn:hover {
+  color: #fff;
+  background-color: #bbb;
+  border: #fff;
+  transform: scale(0.99);
+  border-radius: 1%;
+}
+
+/* hide the scrollbar for the thumbnail slider */
+@layer utilities {
+    @variants responsive {
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+      }
+    }
+  }

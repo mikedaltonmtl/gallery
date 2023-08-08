@@ -36,8 +36,8 @@ export default function Navbar() {
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4'><Link className='navLink' id={`navLink-${textColor}`} href='/'>Home</Link></li>
           <li className='p-4'><Link className='navLink' id={`navLink-${textColor}`} href='/#gallery'>Pictures</Link></li>
-          <li className='p-4'><Link className='navLink' id={`navLink-${textColor}`} href='/#contact'>Contact</Link></li>
           <li className='p-4'><Link className='navLink' id={`navLink-${textColor}`} href='/#about'>About</Link></li>
+          <li className='p-4'><Link className='navLink' id={`navLink-${textColor}`} href='/#contact'>Contact</Link></li>
         </ul>
         {/* mobile button */}
         <div onClick={handleNav} className='block sm:hidden z-20'>{
@@ -56,8 +56,8 @@ export default function Navbar() {
           <ul>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'><Link href='/'>Home</Link></li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'><Link href='/#gallery'>Pictures</Link></li>
-            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'><Link href='/#contact'>Contact</Link></li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'><Link href='/#about'>About</Link></li>
+            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'><Link href='/#contact'>Contact</Link></li>
           </ul>
         </div>
       </div>
