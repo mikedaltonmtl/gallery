@@ -9,7 +9,7 @@ import { CgWebsite } from 'react-icons/cg';
 
 export default function About() {
   return (
-    <main className='max-w-[1240px] m-auto p-4 h-screen relative'>
+    <main className='max-w-[100%] sm:max-w-[1240px] m-auto p-4 min-h-screen relative'>
       <div id='about' className='absolute left-0 top-[-70px]' />
       <h1 className='text-4xl font-bold text-center p-4'>A little background</h1>
       <section className='p-4 flex justify-evenly align-top'>
@@ -23,35 +23,36 @@ export default function About() {
         <article className='w-1/3'>
           <div className="flex py-2">
             <BiSolidMapPin className='text-red-600 select-none' size={30} />
-            <p className='text-xl px-2'>Location: Montreal</p>
+            <p className='text-xs sm:text-xl px-2 w-2/3 sm:w-auto'>Location: Montreal</p>
           </div>
           <Link className="flex py-2" href="https://www.linkedin.com/in/mike-dalton-4a002224/" target="_blank">
             <BsLinkedin className='text-[#0A66C2] cursor-pointer select-none' size={30} />
-            <p className='text-xl px-2'>Linked in</p>
+            <p className='text-xs sm:text-xl px-2 mt-1 sm:mt-0'>Linked in</p>
             <FiExternalLink className='mt-1' />
           </Link>
           <Link className="flex py-2" href="https://github.com/mikedaltonmtl" target="_blank">
             <VscGithub className='text-[#171515] cursor-pointer select-none' size={30} />
-            <p className='text-xl px-2'>GitHub</p>
+            <p className='text-xs sm:text-xl px-2 mt-1 sm:mt-0'>GitHub</p>
             <FiExternalLink className='mt-1' />
           </Link>
           <Link className="flex py-2" href="https://resume.creddle.io/resume/imknszcecmu" target="_blank">
             <CgWebsite className='text-lime-500 cursor-pointer select-none' size={30} />
-            <p className='text-xl px-2'>Resume</p>
+            <p className='text-xs sm:text-xl px-2 mt-1 sm:mt-0'>Resume</p>
             <FiExternalLink className='mt-1' />
           </Link>
           <Link className="flex py-2" href="https://portfolio-mikedaltonmtl.vercel.app/" target="_blank">
             <GrContactInfo className='cursor-pointer select-none' size={30} />
-            <p className='text-xl px-2'>Portfolio</p>
+            <p className='text-xs sm:text-xl px-2 mt-1 sm:mt-0'>Portfolio</p>
             <FiExternalLink className='mt-1' />
           </Link>
           <div className="flex py-2">
             <FiMail className='text-pink-500/80 select-none' size={30} />
-            <p className='text-xl px-2'>michael.j.dalton@gmail.com</p>
+            <p className='hidden sm:block text-xl px-2'>michael.j.dalton@gmail.com</p>
+            <p className='block sm:hidden text-xs pl-2 w-min'>michael. j.dalton@ gmail.com</p>
           </div>
           <div className="flex py-2">
             <BiMessageDetail className='text-indigo-500/80 select-none' size={30} />
-            <p className='text-xl px-2'>+1 (514) 267-9278</p>
+            <p className='text-xs sm:text-xl px-2 w-2/3 sm:w-auto'>+1 (514) 267-9278</p>
           </div>
         </article>
       </section>

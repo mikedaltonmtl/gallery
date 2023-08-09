@@ -21,7 +21,6 @@ export default function Slider({ slides }) {
   const scrollbox = useRef();
 
   const scrollLeft = () => {
-    console.log('scrollLeft');
     scrollbox.current.scrollLeft -= 151.5;
   };
 
@@ -35,7 +34,7 @@ export default function Slider({ slides }) {
   }
 
   return (
-    <div className='w-[1240px] mx-auto relative'>
+    <div className='w-[1240px] hidden sm:block mx-auto relative'>
       <div id='gallery' className='absolute left-0 top-[-70px]' />
       <h1 className='text-4xl font-bold text-center p-4'>Gallery</h1>
       
