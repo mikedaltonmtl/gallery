@@ -47,7 +47,7 @@ export default function About() {
           </Link>
           <div className="flex py-2">
             <FiMail className='text-pink-500/80 select-none' size={30} />
-            <p className=' break-all text-base sm:text-xl px-2'>michael.j.dalton@gmail.com</p>
+            <p className='break-all text-base sm:text-xl px-2'>michael.j.dalton@gmail.com</p>
           </div>
           <div className="flex py-2">
             <BiMessageDetail className='text-indigo-500/80 select-none' size={30} />
