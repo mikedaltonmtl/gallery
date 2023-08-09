@@ -28,22 +28,22 @@ export default function About() {
           <Link className="flex py-2" href="https://www.linkedin.com/in/mike-dalton-4a002224/" target="_blank">
             <BsLinkedin className='text-[#0A66C2] cursor-pointer select-none' size={30} />
             <p className='text-xs sm:text-xl px-2 mt-1 sm:mt-0'>Linked in</p>
-            <FiExternalLink className='mt-1' />
+            <FiExternalLink className='hidden sm:block mt-1' />
           </Link>
           <Link className="flex py-2" href="https://github.com/mikedaltonmtl" target="_blank">
             <VscGithub className='text-[#171515] cursor-pointer select-none' size={30} />
             <p className='text-xs sm:text-xl px-2 mt-1 sm:mt-0'>GitHub</p>
-            <FiExternalLink className='mt-1' />
+            <FiExternalLink className='hidden sm:block mt-1' />
           </Link>
           <Link className="flex py-2" href="https://resume.creddle.io/resume/imknszcecmu" target="_blank">
             <CgWebsite className='text-lime-500 cursor-pointer select-none' size={30} />
             <p className='text-xs sm:text-xl px-2 mt-1 sm:mt-0'>Resume</p>
-            <FiExternalLink className='mt-1' />
+            <FiExternalLink className='hidden sm:block mt-1' />
           </Link>
           <Link className="flex py-2" href="https://portfolio-mikedaltonmtl.vercel.app/" target="_blank">
             <GrContactInfo className='cursor-pointer select-none' size={30} />
             <p className='text-xs sm:text-xl px-2 mt-1 sm:mt-0'>Portfolio</p>
-            <FiExternalLink className='mt-1' />
+            <FiExternalLink className='hidden sm:block mt-1' />
           </Link>
           <div className="flex py-2">
             <FiMail className='text-pink-500/80 select-none' size={30} />
