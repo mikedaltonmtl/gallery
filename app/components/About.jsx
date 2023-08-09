@@ -14,7 +14,7 @@ export default function About() {
       <h1 className='text-4xl font-bold text-center p-4'>A little background</h1>
       <section className='p-4 flex sm:flex-row flex-col justify-evenly align-top'>
         <article className='w-auto sm:w-1/2'>
-          <p className='py-2 text-justify'>Hi! I&apos;m the guy in the some of the photos above.</p>
+          <p className='py-2 text-justify'>Hi! I&apos;m the (human!) guy in the some of the photos above.</p>
           <p className='py-2 text-justify'>For a long time now I&apos;ve known that I want to be coding and I&apos;m currently looking for an opportunity to do so.</p>
           <p className='py-2 text-justify'>When we brought a new puppy home and I realized how many photos we were going to take of her, my first reaction was that it would be great to build some kind of gallery to collate them all ...and this is it.</p>
           <p className='py-2 text-justify'>I followed a You Tube <Link className="about before:bg-sky-500/30" href="https://www.youtube.com/watch?v=HVyct9EUNP8" target="_blank">tutorial</Link> by Clint Briley for the navigation and large image slider then added the rest myself. I tried to add a little animation and movement to some of the elements to keep it fun, with a stack of Next.js (13) and Tailwind.</p>
