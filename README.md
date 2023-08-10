@@ -1,7 +1,10 @@
 # DogArt
 
-We all need our own website where we can show off all the amazing projects we're working on, right?!
-Either way, this one is mine: https://dogart.vercel.app/
+The story of the Internet is well known: at the height of the cold war, The US Military (ARPA) spent over 20 years and billions of dollars creating a decentalized network of networks that would ensure that, even after a nuclear attack, we would be able so send pictures of kittens to each other ;)
+
+Having recently made a terrible mistake in letting the rest of the family choose a puppy, I decided to put a little gallery together of the first round of dog pics: https://dogart.vercel.app/.
+
+Every little helps when redressing the balance on the domestic animal front!
 
 ![DogArt Gallery](./public/DogArt.gif)
 
