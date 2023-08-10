@@ -27,7 +27,7 @@ export default function About() {
           </div>
           <Link className="flex py-2" href="https://www.linkedin.com/in/mike-dalton-4a002224/" target="_blank">
             <BsLinkedin className='text-[#0A66C2] cursor-pointer select-none' size={30} />
-            <p className='text-base sm:text-xl px-2 mt-1'>Linked in</p>
+            <p className='text-base sm:text-xl px-2 mt-1'>LinkedIn</p>
             <FiExternalLink className='mt-1' />
           </Link>
           <Link className="flex py-2" href="https://github.com/mikedaltonmtl" target="_blank">
