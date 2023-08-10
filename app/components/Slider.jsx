@@ -76,7 +76,7 @@ export default function Slider({ slides }) {
             return (
               <Image
                 key={`thumb-${index}`}
-                className="h-96 sm:h-auto sm:w-36 opacity-100 hover:opacity-70 hover:cursor-pointer rounded"
+                className="h-96 sm:h-auto sm:w-36 opacity-100 sm:hover:opacity-70 hover:cursor-pointer rounded"
                 src={thumb}
                 alt={index}
                 placeholder="blur"
