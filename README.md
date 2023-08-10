@@ -1,6 +1,6 @@
 # DogArt
 
-The story of the Internet is well known: at the height of the cold war, The US Military (ARPA) spent over 20 years and billions of dollars creating a decentalized network of networks that would ensure that, even after a nuclear attack, we would be able so send pictures of kittens to each other ;)
+The story of the Internet is well known: at the height of the cold war, The US Military (ARPA) spent over 20 years and billions of dollars creating a decentralized network of networks that would ensure that, even after a nuclear attack, we would be able so send pictures of kittens to each other ;)
 
 Having recently made a terrible mistake in letting the rest of the family choose a puppy, I decided to put a little gallery together of the first round of dog pics: https://dogart.vercel.app/.
 
