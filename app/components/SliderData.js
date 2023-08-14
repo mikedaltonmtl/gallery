@@ -29,11 +29,15 @@ import romy028 from '../../public/Romy028.jpg';
 import romy029 from '../../public/Romy029.jpg';
 import romy030 from '../../public/Romy030.jpg';
 import romy031 from '../../public/Romy031.jpg';
+import romy032 from '../../public/Romy032.jpg';
+import romy033 from '../../public/Romy033.jpg';
+import romy034 from '../../public/Romy034.jpg';
+
 
 
 export const SliderData = [
   romy001, romy002, romy003, romy004, romy005, romy006, romy007, romy008, romy009, romy010,
   romy011, romy012, romy013, romy014, romy015, romy016, romy017, romy018, romy019, romy020,
   romy021, romy022, romy023, romy024, romy025, romy026, romy027, romy028, romy029, romy030,
-  romy031
+  romy031, romy032, romy033, romy034
 ];
