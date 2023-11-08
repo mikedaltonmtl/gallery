@@ -20,7 +20,7 @@ I tried to add a little animation and movement to some of the elements to keep i
 
 The biggest challenge was the responsive design. Even with Tailwind (what an amazing library, btw!) it took me longer than expected to make it work on a phone screen. Frustratingly, what Chrome Dev Tools on my laptop showed me would be displayed did not match what the Chrome browser on my iPhone actually displayed. I had to deploy the site (thank you Vercel!) and push my changes each time to see what the actual effects were.
 
-This was a fun challenge and has actually produced simething useful. I feel that I still need to raise the bar quite a bit before my code becomes production-level, but I feel that I'm a little closer than I was before, especially on the CSS side of things.
+This was a fun challenge and has actually produced something useful. I feel that I still need to raise the bar quite a bit before my code becomes production-level, but I feel that I'm a little closer than I was before, especially on the CSS side of things.
 
 ## Tech Stack
 
