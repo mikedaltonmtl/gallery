@@ -14,7 +14,7 @@ When we brought a new puppy home and I realized how many photos we were going to
 
 I followed a You Tube tutorial (https://www.youtube.com/watch?v=HVyct9EUNP8) by Clint Briley for the navigation and large image slider, then added the rest myself.
 
-The main reason for choosing Clint&apos; tutorial was that I wanted to learn how to use the effect at the top of the app, where the content slides up over an image as you scroll down. I really like this effect and have been noticing it being used more and more on commercial sites.
+The main reason for choosing Clint&apos;s tutorial was that I wanted to learn how to use the effect at the top of the app, where the content slides up over an image as you scroll down. I really like this effect and have been noticing it being used more and more on commercial sites.
 
 I tried to add a little animation and movement to some of the elements to keep it fun, after all, the product testers were my kids!
 
